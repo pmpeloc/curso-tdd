@@ -4,10 +4,10 @@
     "project": "./class-01/tsconfig.json"
   },
   "rules": {
-    "@typescript-eslint/no-redeclare": "off",
-    "semi": "off",
-    "@typescript-eslint/semi": ["off"],
-    "space-before-function-paren": "off",
-    "@typescript-eslint/space-before-function-paren": ["off"]
+    "@typescript-eslint/no-redeclare": "off"
+    // "semi": "off",
+    // "@typescript-eslint/semi": ["off"],
+    // "space-before-function-paren": "off",
+    // "@typescript-eslint/space-before-function-paren": ["off"]
   }
 }
