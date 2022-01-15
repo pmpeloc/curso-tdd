@@ -1,5 +1,5 @@
-function test(): number {
+function teste(): number {
   return 25;
 }
-// test final
-test();
+// test prueba jest
+teste();

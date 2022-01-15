@@ -1,13 +1,15 @@
 {
   "extends": "standard-with-typescript",
   "parserOptions": {
-    "project": "./tsconfig.json"
+    // "project": "./class-01/tsconfig.json" // FORMATO PARA DEV
+    "project": "./tsconfig.json" // FORMATO PARA GIT COMMIT
   },
   "rules": {
     "@typescript-eslint/no-redeclare": "off",
     "semi": "off",
     "@typescript-eslint/semi": ["off"],
     "space-before-function-paren": "off",
-    "@typescript-eslint/space-before-function-paren": ["off"]
+    "@typescript-eslint/space-before-function-paren": ["off"],
+    "comma-dangle": ["off"]
   }
 }
